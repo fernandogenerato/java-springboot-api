@@ -15,8 +15,6 @@ public class h2config {
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.driverClassName("org.h2.Driver");
         dataSourceBuilder.url("jdbc:h2:file:~/h2");
-        dataSourceBuilder.username("SA");
-        dataSourceBuilder.password("");
         return dataSourceBuilder.build();
     }
 
