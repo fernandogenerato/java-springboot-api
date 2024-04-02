@@ -3,7 +3,8 @@
 This is a Spring Boot project that follows the best practices of Clean Architecture and incorporates a Redis cache layer. It is configured to be easily run using Docker Compose.
 
 ## Prerequisites
-
+- Java 22
+- Maven
 - Docker
 - Docker Compose
 
@@ -23,7 +24,13 @@ git clone https://github.com/fernandogenerato/java-springboot-api.git
 cd java-springboot-api
 ```
 
-3. Run the following command to start the application with Docker Compose:
+3. Build the project
+
+```
+mvn clean package
+```
+
+4. Run the following command to start the application with Docker Compose:
 
 ```bash
 docker-compose up -d --build
