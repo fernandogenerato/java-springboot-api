@@ -1,4 +1,4 @@
-# Spring Boot Project with Clean Architecture and Redis Cache
+# Spring Boot Project API
 
 This is a Spring Boot project that follows the best practices of Clean Architecture and incorporates a Redis cache layer. It is configured to be easily run using Docker Compose.
 
